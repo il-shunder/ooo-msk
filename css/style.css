@@ -2819,7 +2819,7 @@ input[type='number']::-webkit-outer-spin-button {
   }
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 1009px) {
   .header__burger {
     display: -webkit-box;
     display: -ms-flexbox;
