@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/popup.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <div class="header" id="home">
+                <div class="header__top header-top">
+                    <div class="container">
+                        <div class="header-top__row">
+                            <div class="header-top__left">
+                                <a href="#" class="header-top__logo header-logo">
+                                    <div class="header-logo__img"><img src="img/logo.svg" alt=""></div>
+                                    <div class="header-logo__body">
+                                        <div class="header-logo__name">ООО «МСК»</div>
+                                        <div class="header-logo__text">Полусухая стяжка пола<br>в Москве и области</div>
+                                    </div>
+                                </a>
+                                <div class="header__burger"><span></span></div>
+                            </div>
+                            <div class="header-top__right">
+                                <a href="tel:74951396109" class="header-top__nomer header-nomer">
+                                    <div class="header-nomer__num">+7 (495) 139-61-09</div>
+                                    <div class="header-nomer__text">ежедневно с 08:00 до 20:00</div>
+                                </a>
+                                <a href="#" class="header-top__mess header-mess">
+                                    <div class="header-mess__icon"><img src="img/whatsapp.svg" alt=""></div>
+                                    <div class="header-mess__name">Whatsapp</div>
+                                </a>
+                                <div data-href='popup-call' class="header-top__btn page-btn popup-link">Обратный звонок
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__main header-main lock-padding">
+                    <div class="container">
+                        <div class="header-main__row">
+                            <nav class="header-main__nav">
+                                <a href="#home" class="header-main__item _active">Главная</a>
+                                <a href="#works" class="header-main__item">Наши работы</a>
+                                <a href="#price" class="header-main__item">Стоимость</a>
+                                <a href="#contacts" class="header-main__item">Контакты</a>
+                            </nav>
+                            <a href="tel:74951396109" class="header-main__tel">+7 (495) 139-61-09</a>
+                            <div class="header-main__burger header__burger"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom header-bottom">
+                    <div class="container">
+                        <div class="header-bottom__row">
+                            <div class="header-bottom__column1 header-column1">
+                                <div class="header-column1__title">Идеально <span>ровный</span><br>пол под покрытие
+                                </div>
+                                <div class="header-column1__subtitle">За 1 день, с немецким оборудованием и официальной
+                                    гарантией по договору</div>
+                                <div class="header-column1__body">
+                                    <div class="header-column1__name">Гарантируем:</div>
+                                    <div class="header-column1__row">
+                                        <div class="header-column1__item">
+                                            <div class="header-column1__subrow">
+                                                <div class="header-column1__icon"><img src="img/1.svg" alt=""></div>
+                                                <div class="header-column1__text">Ровную поверхность</div>
+                                            </div>
+                                        </div>
+                                        <div class="header-column1__item">
+                                            <div class="header-column1__subrow">
+                                                <div class="header-column1__icon"><img src="img/2.svg" alt=""></div>
+                                                <div class="header-column1__text">Сохранность вашим нервам</div>
+                                            </div>
+                                        </div>
+                                        <div class="header-column1__item">
+                                            <div class="header-column1__subrow">
+                                                <div class="header-column1__icon"><img src="img/3.svg" alt=""></div>
+                                                <div class="header-column1__text">Уважение к Вашему времени</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-bottom__column2 header-column2">
+                                <div class="header-column2__block">
+                                    <div class="header-column2__title">Рассчитайте стоимость стяжки без выезда
+                                        специалиста <span>прямо сейчас</span></div>
+                                    <div data-href='popup-cost' class="header-column2__btn page-btn popup-link">
+                                        Предварительный<br>расчет стоимости
+                                    </div>
+                                </div>
+                                <div class="header-column2__img">
+                                    <img src="img/4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__abs header-abs">
+                    <div class="header-abs__block">
+                        <div class="header-abs__body">
+                            <div class="header-abs__row">
+                                <div class="header-abs__img"><img src="img/5.svg" alt=""></div>
+                                <div class="header-abs__text">Выполняем от <span>50м²</span> до <span>800м²</span> в
+                                    день</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-abs__tr"></div>
+                    <div class="header-abs__bl"></div>
+                    <div class="header-abs__ellipse"><img src="img/6.jpg" alt=""></div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="about">
+    <div class="container">
+        <div class="about__title page-title">Мы <span>эксперты</span> в нише полусухой стяжки пола</div>
+        <div class="about__block">
+            <div class="about__text">Mы - oднa из пepвыx кoмпaний в Mocквe, нaчaвшиx пpeдocтaвлять уcлуги стяжки пола
+                полусухим способом.</div>
+            <div class="about__text">Собственное оборудование, бригады работающие на постоянной основе, большой опыт
+                работы,
+                гибкий подход к каждому клиенту,
+                гарантия, работа по договору, персональный менеджер, консультации до и после осуществления всего
+                комплекса
+                работ.</div>
+            <div class="about__text">Мы работаем для того чтобы вы остались довольны.</div>
+            <div class="about__row">
+                <div class="about__item">
+                    <div class="about__num">5</div>
+                    <div class="about__name">лет работы</div>
+                </div>
+                <div class="about__item">
+                    <div class="about__num">700+</div>
+                    <div class="about__name">завершенных объектов</div>
+                </div>
+                <div class="about__item">
+                    <div class="about__num">3</div>
+                    <div class="about__name">года гарантии</div>
+                </div>
+            </div>
+            <div class="about__subtitle">По любым возникающим у Вас вопросам, смело звоните нам:</div>
+            <a href="tel:74951396109" class="about__tel">+7 (495) 139-61-09</a>
+        </div>
+    </div>
+</div>
+            <div class="material">
+    <div class="container">
+        <div class="material__title page-title">ТОЛЬКО <span>ЛУЧШИЕ</span> МАТЕРИАЛЫ
+            и оборудование</div>
+        <div class="material__subtitle">Мы не экономим на материалах и оборудовании, поскольку знаем, что это скажется
+            на качестве и долговечности покрытия.</div>
+        <div class="material__body">
+            <div class="material__img"><img src="img/7.png" alt=""></div>
+            <div class="material__item" data-item="0">
+                <div class="material__name">Пнeвмoнaгнeтaтeль</div>
+                <div class="material__subname">Putzmeister 740</div>
+            </div>
+            <div class="material__item" data-item="1">
+                <div class="material__name">Eвpoцeмeнт M500</div>
+            </div>
+            <div class="material__item" data-item="2">
+                <div class="material__name">Промытый песок</div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="price" id="price">
+    <div class="price__top price-top">
+        <div class="container">
+            <div class="price-top__title page-title"><span>СТОИМОСТЬ</span> ПОЛУСУХОЙ СТЯЖКИ ПОЛА</div>
+            <div class="price-top__row">
+                <div class="price-top__item">
+                    <div class="price-top__block">
+                        <div class="price-top__name"><span>СТАНДАРТНАЯ</span> ПОЛУСУХАЯ СТЯЖКА</div>
+                    </div>
+                    <div class="price-top__img"><img src="img/8.png" alt=""></div>
+                    <div class="price-top__info">
+                        <div class="price-top__body">
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Толщина слоя:</span> от 60 мм</div>
+                            </div>
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Сроки:</span> от 150м² за смену</div>
+                            </div>
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Гарантия:</span> 5 лет</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-top__price">oт 450 ₽/м²</div>
+                </div>
+                <div class="price-top__item">
+                    <div class="price-top__block">
+                        <div class="price-top__name"><span>ПОЛИСТИРОЛЬНАЯ</span> ПОЛУСУХАЯ СТЯЖКА</div>
+                    </div>
+                    <div class="price-top__img"><img src="img/9.png" alt=""></div>
+                    <div class="price-top__info">
+                        <div class="price-top__body">
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Толщина слоя:</span> от 50 мм</div>
+                            </div>
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Сроки:</span> от 150м² за смену</div>
+                            </div>
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Гарантия:</span> 5 лет</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-top__price">oт 450 ₽/м²</div>
+                </div>
+                <div class="price-top__item">
+                    <div class="price-top__block">
+                        <div class="price-top__name"><span>АРМИРОВАННАЯ</span> ПОЛУСУХАЯ СТЯЖКА</div>
+                    </div>
+                    <div class="price-top__img"><img src="img/10.png" alt=""></div>
+                    <div class="price-top__info">
+                        <div class="price-top__body">
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Толщина слоя:</span> от 70 мм</div>
+                            </div>
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Сроки:</span> от 150м² за смену</div>
+                            </div>
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Гарантия:</span> 5 лет</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-top__price">oт 450 ₽/м²</div>
+                </div>
+                <div class="price-top__item">
+                    <div class="price-top__block">
+                        <div class="price-top__name">СТЯЖКА<span> ТЕПЛОГО ПОЛА</span></div>
+                    </div>
+                    <div class="price-top__img"><img src="img/11.png" alt=""></div>
+                    <div class="price-top__info">
+                        <div class="price-top__body">
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Толщина слоя:</span> от 80 мм</div>
+                            </div>
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Сроки:</span> от 150м² за смену</div>
+                            </div>
+                            <div class="price-top__part">
+                                <div class="price-top__icon"><img src="img/check.svg" alt=""></div>
+                                <div class="price-top__text"><span>Гарантия:</span> 5 лет</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-top__price">oт 450 ₽/м²</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="price__bottom price-bottom">
+        <div class="container">
+            <div class="price-bottom__title page-title">В <span>СТОИМОСТЬ РАБОТ</span> УЖЕ ВХОДИТ</div>
+            <div class="price-bottom__row">
+                <div class="price-bottom__item">
+                    <div class="price-bottom__icon">
+                        <img src="img/check.svg" alt="">
+                        <div class="price-bottom__bg"></div>
+                    </div>
+                    <div class="price-bottom__name">Материалы и доставка</div>
+                    <div class="price-bottom__foto"><img src="img/12.png" alt=""></div>
+                    <div class="price-bottom__text">Строительные смеси
+                        и специальные добавки</div>
+                </div>
+                <div class="price-bottom__item">
+                    <div class="price-bottom__icon"><img src="img/check.svg" alt="">
+                        <div class="price-bottom__bg"></div>
+                    </div>
+                    <div class="price-bottom__name">Укладка стяжки</div>
+                    <div class="price-bottom__foto"><img src="img/13.png" alt=""></div>
+                    <div class="price-bottom__text">Полный комплекс работ
+                        под ключ</div>
+                </div>
+                <div class="price-bottom__item">
+                    <div class="price-bottom__icon"><img src="img/check.svg" alt="">
+                        <div class="price-bottom__bg"></div>
+                    </div>
+                    <div class="price-bottom__name">Техника и доставка</div>
+                    <div class="price-bottom__foto"><img src="img/14.png" alt=""></div>
+                    <div class="price-bottom__text">Сами доставим, разгрузим
+                        поднимем на этаж</div>
+                </div>
+                <div class="price-bottom__item">
+                    <div class="price-bottom__icon"><img src="img/check.svg" alt="">
+                        <div class="price-bottom__bg"></div>
+                    </div>
+                    <div class="price-bottom__name">Уборка</div>
+                    <div class="price-bottom__foto"><img src="img/15.png" alt=""></div>
+                    <div class="price-bottom__text">После монтажа убираем
+                        за собой весь мусор</div>
+                </div>
+            </div>
+            <div class="price-bottom__block">
+                <div class="price-bottom__subrow">
+                    <div class="price-bottom__body">
+                        <div class="price-bottom__img"><img src="img/16.png" alt=""></div>
+                        <div class="price-bottom__subtext"><span>Рассчитайте стоимость</span> стяжки<br>
+                            за 1 минуту для вашего помещения<br>
+                            И <span>получите скидку 10%</span>, только при расчете онлайн.
+                        </div>
+                    </div>
+                    <div data-href='popup-cost' class="price-bottom__btn page-btn popup-link">Расчёт стоимости со
+                        скидкой 10%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="necessary">
+    <div class="container">
+        <div class="necessary__title page-title _white">ПРИ <span>НЕОБХОДИМОСТИ</span></div>
+        <div class="necessary__row">
+            <div class="necessary__left necessary-left">
+                <div class="necessary-left__block">
+                    <div class="necessary-left__item">
+                        <div class="necessary-left__icon"></div>
+                        <div class="necessary-left__text">Сразу проведем монтаж <span>гидроизоляции</span>,
+                            например в ванной или <span>утеплим</span> пол в комнате.</div>
+                    </div>
+                    <div class="necessary-left__item">
+                        <div class="necessary-left__icon"></div>
+                        <div class="necessary-left__text">Дадим рекомендации <span>по укладке проводов</span>,
+                            если они будут проходить по полу.
+                            Вы получите наиболее оптимальный вариант укладки электрики.
+                            Это даст минимальную толщину будущей стяжки.
+                            И вы получите <span>недорогую полусухую стяжку</span> в Москве.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="necessary__right necessary-right">
+                <div class="necessary-right__body">
+                    <div class="necessary-right__img"><img src="img/17.png" alt=""></div>
+                    <div class="necessary-right__item necessary__1">
+                        <div class="necessary-right__icon"><span></span></div>
+                        <div class="necessary-right__name">Напольное покрытие</div>
+                    </div>
+                    <div class="necessary-right__item necessary__2">
+                        <div class="necessary-right__icon"><span></span></div>
+                        <div class="necessary-right__name">Стяжка пола</div>
+                    </div>
+                    <div class="necessary-right__item necessary__3">
+                        <div class="necessary-right__icon"><span></span></div>
+                        <div class="necessary-right__name">Теплозвукоизоляция</div>
+                    </div>
+                    <div class="necessary-right__item necessary__4">
+                        <div class="necessary-right__icon"><span></span></div>
+                        <div class="necessary-right__name">Гидроизоляция</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="necessary-left__row">
+            <div class="necessary-left__subtext">Ответим на любой вопрос</div>
+            <div data-href='popup-call' class="necessary-left__btn page-btn popup-link">Задать вопрос</div>
+        </div>
+    </div>
+</div>
+            <div class="work" id="works">
+    <div class="work__top work-top">
+        <div class="work-top__bg1"><img src="img/bg-5.png" alt=""></div>
+        <div class="work-top__bg2"><img src="img/bg-6.png" alt=""></div>
+        <div class="container work-top__container">
+
+            <div class="work-top__title page-title">НАШИ <span>РАБОТЫ</span></div>
+            <div class="work-top__breadcrumbs work-breadcrumbs">
+                <div class="work-breadcrumbs__item _active"><span>Квартиры</span></div>
+                <div class="work-breadcrumbs__item"><span>Коттеджи</span></div>
+                <div class="work-breadcrumbs__item"><span>Коммерческие предложения</span></div>
+            </div>
+            <div class="work-top__slider">
+                <div class="work-top__item">
+                    <div class="work-top__row">
+                        <div class="work-top__left">
+                            <div class="work-top__img"><img src="img/18.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/21.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/19.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/20.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/21.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/19.png" alt=""></div>
+                        </div>
+                        <div class="work-top__right">
+                            <div class="work-top__subtitle">Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                            </div>
+                            <div class="work-top__body">
+                                <div class="work-top__block">
+                                    <div class="work-top__name">
+                                        <div class="work-top__icon"><img src="img/22.svg" alt=""></div>
+                                        <div class="work-top__text">Площадь:</div>
+                                    </div>
+                                    <div class="work-top__value">62м² / 60-70 мм</div>
+                                </div>
+                                <div class="work-top__block">
+                                    <div class="work-top__name">
+                                        <div class="work-top__icon"><img src="img/23.svg" alt=""></div>
+                                        <div class="work-top__text">Дата:</div>
+                                    </div>
+                                    <div class="work-top__value">15.12.18</div>
+                                </div>
+                                <div class="work-top__block">
+                                    <div class="work-top__name">
+                                        <div class="work-top__icon"><img src="img/24.svg" alt=""></div>
+                                        <div class="work-top__text">Сроки:</div>
+                                    </div>
+                                    <div class="work-top__value">1 день</div>
+                                </div>
+                            </div>
+                            <div class="work-top__subrow">
+                                <div data-href='popup-cost' class="work-top__btn page-btn popup-link">Заказать расчет
+                                </div>
+                                <a href="tel:+74951396109" class="work-top__tel">+7 (495) 139-61-09</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-top__item">
+                    <div class="work-top__row">
+                        <div class="work-top__left">
+                            <div class="work-top__img"><img src="img/18.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/19.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/20.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/21.png" alt=""></div>
+                        </div>
+                        <div class="work-top__right">
+                            <div class="work-top__subtitle">Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                            </div>
+                            <div class="work-top__body">
+                                <div class="work-top__block">
+                                    <div class="work-top__name">
+                                        <div class="work-top__icon"><img src="img/22.svg" alt=""></div>
+                                        <div class="work-top__text">Площадь:</div>
+                                    </div>
+                                    <div class="work-top__value">62м² / 60-70 мм</div>
+                                </div>
+                                <div class="work-top__block">
+                                    <div class="work-top__name">
+                                        <div class="work-top__icon"><img src="img/23.svg" alt=""></div>
+                                        <div class="work-top__text">Дата:</div>
+                                    </div>
+                                    <div class="work-top__value">15.12.18</div>
+                                </div>
+                                <div class="work-top__block">
+                                    <div class="work-top__name">
+                                        <div class="work-top__icon"><img src="img/24.svg" alt=""></div>
+                                        <div class="work-top__text">Сроки:</div>
+                                    </div>
+                                    <div class="work-top__value">1 день</div>
+                                </div>
+                            </div>
+                            <div class="work-top__subrow">
+                                <div data-href='popup-cost' class="work-top__btn page-btn popup-link">Заказать расчет
+                                </div>
+                                <a href="tel:+74951396109" class="work-top__tel">+7 (495) 139-61-09</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-top__item">
+                    <div class="work-top__row">
+                        <div class="work-top__left">
+                            <div class="work-top__img"><img src="img/18.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/19.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/20.png" alt=""></div>
+                            <div class="work-top__img"><img src="img/21.png" alt=""></div>
+                        </div>
+                        <div class="work-top__right">
+                            <div class="work-top__subtitle">Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                            </div>
+                            <div class="work-top__body">
+                                <div class="work-top__block">
+                                    <div class="work-top__name">
+                                        <div class="work-top__icon"><img src="img/22.svg" alt=""></div>
+                                        <div class="work-top__text">Площадь:</div>
+                                    </div>
+                                    <div class="work-top__value">62м² / 60-70 мм</div>
+                                </div>
+                                <div class="work-top__block">
+                                    <div class="work-top__name">
+                                        <div class="work-top__icon"><img src="img/23.svg" alt=""></div>
+                                        <div class="work-top__text">Дата:</div>
+                                    </div>
+                                    <div class="work-top__value">15.12.18</div>
+                                </div>
+                                <div class="work-top__block">
+                                    <div class="work-top__name">
+                                        <div class="work-top__icon"><img src="img/24.svg" alt=""></div>
+                                        <div class="work-top__text">Сроки:</div>
+                                    </div>
+                                    <div class="work-top__value">1 день</div>
+                                </div>
+                            </div>
+                            <div class="work-top__subrow">
+                                <div data-href='popup-cost' class="work-top__btn page-btn popup-link">Заказать расчет
+                                </div>
+                                <a href="tel:+74951396109" class="work-top__tel">+7 (495) 139-61-09</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="work__bottom work-bottom">
+        <div class="container">
+            <div class="work-bottom__title page-title">МЫ ДЕЛАЕМ <span>КАЧЕСТВЕННО</span> И <span>НАДОЛГО</span></div>
+            <div class="work-bottom__subtitle">Прочитайте <span>настоящие отзывы</span> о работе с нами
+                <span>от реальных людей</span>
+            </div>
+            <div class="work-bottom__slider">
+                <div class="work-bottom__item"><img src="img/25.png" alt=""></div>
+                <div class="work-bottom__item"><img src="img/26.png" alt=""></div>
+                <div class="work-bottom__item"><img src="img/25.png" alt=""></div>
+                <div class="work-bottom__item"><img src="img/25.png" alt=""></div>
+                <div class="work-bottom__item"><img src="img/26.png" alt=""></div>
+                <div class="work-bottom__item"><img src="img/26.png" alt=""></div>
+            </div>
+            <div class="work-bottom__nav">
+                <div class="work-bottom__prev"></div>
+                <div class="work-bottom__dots"></div>
+                <div class="work-bottom__next"></div>
+            </div>
+            <div class="work-bottom__body">
+                <div class="work-bottom__all">
+                    <div class="work-bottom__img"><img src="img/27.png" alt=""></div>
+                    <div class="work-bottom__block work-block">
+                        <div class="work-block__body">
+                            <div class="work-block__text">Убедитесь в нашей <span>эксперности</span> лично, просто
+                                позвонив
+                                нам:<a href="tel:+74951396109">+7 (495) 139-61-09</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="how">
+    <div class="container how__container">
+        <div class="how__bg1"><img src="img/35.png" alt=""></div>
+        <div class="how__bg2"><img src="img/34.png" alt=""></div>
+        <div class="how__title page-title _white">КАК МЫ <span>РАБОТАЕМ</span></div>
+        <div class="how__row">
+            <div class="how__item">
+                <div class="how__img"><img src="img/28.png" alt=""></div>
+                <div class="how__name">Вы оставляете заявку</div>
+            </div>
+            <div class="how__item">
+                <div class="how__img"><img src="img/29.png" alt=""></div>
+                <div class="how__name">Бесплатный выезд замерщика</div>
+            </div>
+            <div class="how__item">
+                <div class="how__img"><img src="img/30.png" alt=""></div>
+                <div class="how__name">Согласование стоимости и сроков</div>
+            </div>
+            <div class="how__item">
+                <div class="how__img"><img src="img/31.png" alt=""></div>
+                <div class="how__name">Выезд бригады, заключение договора, аванс</div>
+            </div>
+            <div class="how__item">
+                <div class="how__img"><img src="img/32.png" alt=""></div>
+                <div class="how__name">Выполнение работ</div>
+            </div>
+            <div class="how__item">
+                <div class="how__img"><img src="img/33.png" alt=""></div>
+                <div class="how__name">Подписание акта, окончательный расчет</div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="question">
+    <div class="container">
+        <div class="question__top question-top">
+            <div class="question-top__title page-title">Часто задаваемые <span>вопросы</span></div>
+            <div class="question-top__block">
+                <div class="question-top__item">
+                    <div class="question-top__row">
+                        <div class="question-top__name">Сколько стоит стяжка пола?</div>
+                        <div class="question-top__btn"></div>
+                    </div>
+                    <div class="question-top__body">
+                        <span class="question-top__text">Стоимость работ зависит от общей площади и толщины стяжки,
+                            высоты подачи раствора (этажность), территориального расположения объекта. Для расчета
+                            стоимости Вашей стяжки свяжитесь с нами по телефону или оставьте заявку. Минимальный заказ:
+                            40 000 рублей.</span>
+                    </div>
+                </div>
+                <div class="question-top__item">
+                    <div class="question-top__row">
+                        <div class="question-top__name">Сколько по времени займет работа?</div>
+                        <div class="question-top__btn"></div>
+                    </div>
+                    <div class="question-top__body">
+                        <span class="question-top__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            sit exercitationem ipsam, fugit suscipit error nesciunt rerum ipsa quo a sunt, id nemo dolor
+                            soluta blanditiis accusamus neque possimus iusto! Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Quam nemo expedita veniam consequuntur molestiae neque in placeat, itaque
+                            praesentium magni alias nam non natus fuga accusamus est reprehenderit omnis repellat?
+                            Dolore in, minus quaerat ullam tenetur deleniti facilis expedita placeat facere magni
+                            officiis? Fugiat at pariatur dolor porro libero accusamus, cupiditate iusto dolore aut
+                            repellendus tenetur nulla culpa facere cum.Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Ipsum
+                            sit exercitationem ipsam, fugit suscipit error nesciunt rerum ipsa quo a sunt, id nemo dolor
+                            soluta blanditiis accusamus neque possimus iusto! Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Quam nemo expedita veniam consequuntur molestiae neque in placeat, itaque
+                            praesentium magni alias nam non natus fuga accusamus est reprehenderit omnis repellat?
+                            Dolore in, minus quaerat ullam tenetur deleniti facilis expedita placeat facere magni
+                            officiis? Fugiat at pariatur dolor porro libero accusamus, cupiditate iusto dolore aut
+                            repellendus tenetur nulla culpa facere cum.repellendus tenetur nulla culpa facere
+                            cum.repellendus tenetur nulla culpa facere cum.repellendus tenetur nulla culpa facere
+                            cum.repellendus tenetur nulla culpa facere cum.repellendus tenetur nulla culpa facere
+                            cum.</span>
+                    </div>
+                </div>
+                <div class="question-top__item">
+                    <div class="question-top__row">
+                        <div class="question-top__name">Каким материалом работаете?</div>
+                        <div class="question-top__btn"></div>
+                    </div>
+                    <div class="question-top__body">
+                        <span class="question-top__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            sit exercitationem ipsam, fugit suscipit error nesciunt rerum ipsa quo a sunt, id nemo dolor
+                            soluta blanditiis accusamus neque possimus iusto! Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Eveniet quo suscipit blanditiis sit natus? Voluptas, rerum! Eaque id
+                            cupiditate dicta similique minus animi quasi odio aliquid, cumque sed non exercitationem!
+                            Et, architecto optio. Illo error, porro iure quod dignissimos pariatur? Totam voluptatum,
+                            porro illo excepturi mollitia cum praesentium. Sapiente deserunt eos nesciunt dolorem odit
+                            dignissimos! Incidunt rem temporibus numquam voluptates!
+                            Adipisci deleniti explicabo praesentium amet aperiam nam veniam, odit vero illo placeat
+                            consectetur ullam recusandae nesciunt natus tempore ut voluptates dolores laborum eum totam,
+                            odio libero numquam mollitia. Quam, adipisci? Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Vitae facere et at, quidem eaque esse dolorum sapiente laboriosam
+                            molestias, necessitatibus assumenda nihil hic tempora unde est inventore? Dolorem, maiores
+                            assumenda?
+                            Fugit culpa magni impedit nemo. Non dolor nihil tenetur laborum dolores architecto quas
+                            similique quasi, necessitatibus nisi cupiditate sit modi quod labore ut et veniam vel
+                            sapiente tempora fuga neque.
+                            Doloribus soluta sunt quibusdam eveniet? Laborum dolor dolore atque iste animi laudantium ut
+                            vel, commodi nam modi, dolores, debitis voluptatem vitae placeat maiores exercitationem! Id
+                            quasi consequuntur deserunt voluptate eaque.
+                            Iusto deserunt exercitationem, porro, sunt alias ipsam, maiores nobis illum minus sint
+                            libero eveniet voluptate voluptas vitae saepe voluptates officiis sit repellendus. Molestias
+                            excepturi consectetur aperiam ex nobis amet doloremque.
+                            Deleniti iusto quam consectetur assumenda mollitia ratione eligendi natus eum! Corporis
+                            debitis minus nihil culpa harum illo velit, voluptatum non. Similique, consectetur commodi.
+                            Culpa aliquam autem maxime saepe, ut laboriosam!
+                            Alias, impedit ad minima praesentium ullam hic debitis corrupti ratione iste nisi
+                            repellendus nihil eius repudiandae sunt exercitationem culpa eaque, reiciendis sint commodi
+                            pariatur, perspiciatis dolor? Vero corporis doloremque nemo.
+                            Dolorum aliquid, quasi eum odio tempora soluta ratione, aspernatur necessitatibus dicta,
+                            dignissimos modi minima consectetur commodi repellat. Possimus provident, odit dicta illum
+                            fuga fugiat consectetur, debitis aspernatur id perferendis soluta.
+                            Esse incidunt soluta perferendis provident, quas illo voluptate ab laboriosam iusto harum.
+                            Adipisci error qui deserunt reiciendis assumenda recusandae laudantium quo nihil doloribus
+                            tenetur! Autem aperiam repellendus error perferendis explicabo!
+                            Qui maxime dolor facilis debitis magnam iure sint nesciunt cupiditate distinctio iusto
+                            libero harum voluptatibus natus, cum quae perspiciatis quos eius suscipit vel. Ea eveniet
+                            consequatur quod itaque, obcaecati voluptatibus.
+                            Reprehenderit dolor similique voluptatum deleniti distinctio inventore nihil mollitia,
+                            repellendus sapiente illum quibusdam tempore dolorem magnam magni ea suscipit officia optio
+                            assumenda explicabo quos libero ut? Commodi quaerat hic iure.</span>
+                    </div>
+                </div>
+                <div class="question-top__item">
+                    <div class="question-top__row">
+                        <div class="question-top__name">Что делать раньше: стяжку пола или штукатурку стен?</div>
+                        <div class="question-top__btn"></div>
+                    </div>
+                    <div class="question-top__body">
+                        <span class="question-top__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            sit exercitationem ipsam, fugit suscipit error nesciunt rerum ipsa quo a sunt, id nemo dolor
+                            soluta blanditiis accusamus neque possimus iusto!Lorem</span>
+                    </div>
+                </div>
+                <div class="question-top__item">
+                    <div class="question-top__row">
+                        <div class="question-top__name">Кто приедет после заказа?</div>
+                        <div class="question-top__btn"></div>
+                    </div>
+                    <div class="question-top__body">
+                        <span class="question-top__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            sit exercitationem ipsam, fugit suscipit error nesciunt rerum ipsa quo a sunt, id nemo dolor
+                            soluta blanditiis accusamus neque possimus iusto! Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Impedit, et itaque voluptatem nobis amet suscipit neque error quae id rem
+                            exercitationem eum totam a fugiat mollitia provident odio, ex reiciendis.
+                            Non aliquid vitae, earum eaque consectetur officia dicta quibusdam, pariatur maxime, ducimus
+                            vero? Officia cupiditate aliquam voluptas, exercitationem provident libero eos ea veniam,
+                            quibusdam harum repellendus tempore neque sint hic.</span>
+                    </div>
+                </div>
+                <div class="question-top__item">
+                    <div class="question-top__row">
+                        <div class="question-top__name">Что входит в стоимость?</div>
+                        <div class="question-top__btn"></div>
+                    </div>
+                    <div class="question-top__body">
+                        <span class="question-top__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            sit exercitationem ipsam, fugit suscipit error nesciunt rerum ipsa quo a sunt, id nemo dolor
+                            soluta blanditiis accusamus neque possimus iusto!Lorem</span>
+                    </div>
+                </div>
+                <div class="question-top__item">
+                    <div class="question-top__row">
+                        <div class="question-top__name">В каких городах оказываете услуги?</div>
+                        <div class="question-top__btn"></div>
+                    </div>
+                    <div class="question-top__body">
+                        <span class="question-top__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            sit exercitationem ipsam, fugit suscipit error nesciunt rerum ipsa quo a sunt, id nemo dolor
+                            soluta blanditiis accusamus neque possimus iusto! Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Unde, voluptates? Animi molestiae asperiores iste quasi, saepe earum eaque
+                            sit placeat rerum voluptate neque vitae et, perferendis sint aspernatur eum blanditiis.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="question__bottom question-bottom">
+            <div class="question-bottom__body">
+                <div class="question-bottom__block">
+                    <div class="question-bottom__title page-title"><span>ОСТАЛИСЬ ВОПРОСЫ?</span></div>
+                    <div class="question-bottom__subtitle">Оставьте ваш номер телефона, мы перезвоним и согласуем все
+                        вопросы.</div>
+                    <div class="question-bottom__form">
+                        <div class="label">
+                            <input type="number" placeholder="+7 ( --- ) --- -- --" class="question-bottom__input">
+                            <div data-href="popup-call" class="question-bottom__btn page-btn popup-link">Жду звонка
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-bottom__text">или позвоните нам</div>
+                    <a href="tel:+74951396109" class="question-bottom__tel">+7 (495) 139-61-09</a>
+                </div>
+                <div class="question-bottom__tl"><img src="img/35.png" alt=""></div>
+                <div class="question-bottom__tr"></div>
+                <div class="question-bottom__cl"></div>
+                <div class="question-bottom__cr"></div>
+                <div class="question-bottom__bl"></div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="contacts" id="contacts">
+    <div class="container">
+        <div class="contacts__block">
+            <div class="contacts__body">
+                <div class="contacts__title page-title">Наши <span>контакты</span></div>
+                <div class="contacts__subbody">
+                    <div class="contacts__item">
+                        <div class="contacts__name">Адрес:</div>
+                        <div class="contacts__text">г. Москва, Дмитровское шоссе, дом 71Б, этаж 2, комната 21, офис 4в
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__name">Е-mail:</div>
+                        <div class="contacts__text">ooomsc13@mail.ru</div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__name">Телефон:</div>
+                        <a href="tel:+74951396109" class="contacts__tel">+7 (495) 139-61-09</a>
+                        <div class="contacts__subtext">ежедневно с 08:00 до 20:00</div>
+                    </div>
+                </div>
+                <div class="contacts__subtitle"><span>Свяжитесь с нами</span> через мессенджеры</div>
+                <div class="contacts__row">
+                    <a href="#" class="contacts__icon"><img src="img/whatsapp.svg" alt=""></a>
+                    <a href="#" class="contacts__icon"><img src="img/telegram.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </main>
+        <footer>
+            <div class="footer">
+                <a href="#" class="footer__logo header-logo _white">
+                    <div class="header-logo__img"><img src="img/logo-white.svg" alt=""></div>
+                    <div class="header-logo__body">
+                        <div class="header-logo__name">ООО «МСК»</div>
+                        <div class="header-logo__text">Полусухая стяжка пола<br>в Москве и области</div>
+                    </div>
+                </a>
+                <a href="" class="footer__link">Политика конфиденциальности</a>
+                <a href="" class="footer__link">Реквизиты</a>
+            </div>
+        </footer>
+
+        <div id="popup-call" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <div class="popup__block">
+                        <div class="popup__close"></div>
+                        <div class="popup__title page-title">ЗАКАЗ <span>ЗВОНКА</span></div>
+                        <div class="popup__subtitle">Оставьте свои контакты и мы свяжемся с вами в ближайшее время</div>
+                        <div class="popup__form">
+                            <div class="label">
+                                <div class="popup__icon"><img src="img/user.svg" alt=""></div>
+                                <input type="text" class="popup__input" placeholder="Введите имя">
+                            </div>
+                            <div class="label">
+                                <div class="popup__icon"><img src="img/telephone.svg" alt=""></div>
+                                <input type="number" class="popup__input" placeholder="+7 ( --- ) --- -- --">
+                            </div>
+                            <div data-href='popup-thanks' class="popup__btn page-btn popup-link">Заказать звонок</div>
+                            <label class="popup__check">
+                                <input type="checkbox" value="value-1" checked>
+                                <span>Нажимая “Заказать звонок”, Вы даете согласие на обработку персональных
+                                    данных.</span>
+                            </label>
+                        </div>
+                        <div class="popup__message popup-message"><span>Свяжитесь с нами</span>
+                            через мессенджеры</div>
+                        <div class="popup-message__row">
+                            <a href="" class="popup-message__icon"><img src="img/whatsapp.svg" alt=""></a>
+                            <a href="" class="popup-message__icon"><img src="img/telegram.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="popup-cost" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <div class="popup__block">
+                        <div class="popup__close"></div>
+                        <div class="popup__title page-title">РАСЧёТ <span>СТОИМОСТИ</span></div>
+                        <div class="popup__subtitle">Рассчитайте стоимость полусухой стяжки без выезда специалиста</div>
+                        <div class="popup__form">
+                            <div class="label">
+                                <div class="popup__icon"><img src="img/selection.svg" alt=""></div>
+                                <input type="text" class="popup__input" placeholder="Площадь помещения (м²)">
+                            </div>
+                            <div class="label">
+                                <div class="popup__icon"><img src="img/telephone.svg" alt=""></div>
+                                <input type="number" class="popup__input" placeholder="+7 ( --- ) --- -- --">
+                            </div>
+                            <div class="popup__btn page-btn">Рассчитать</div>
+                            <label class="popup__check">
+                                <input type="checkbox" value="value-1" checked>
+                                <span>Нажимая “Рассчитать”, Вы даете согласие на обработку персональных данных.</span>
+                            </label>
+                        </div>
+                        <div class="popup__message popup-message"><span>Свяжитесь с нами</span>
+                            через мессенджеры</div>
+                        <div class="popup-message__row">
+                            <a href="" class="popup-message__icon"><img src="img/whatsapp.svg" alt=""></a>
+                            <a href="" class="popup-message__icon"><img src="img/telegram.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="popup-thanks" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <div class="popup__block">
+                        <div class="popup__close"></div>
+                        <div class="popup__title page-title">Спасибо за <span>заказ</span></div>
+                        <div class="popup__subtitle">Наш специалист свяжется с Вами в течении 30 минут</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/popup.min.js"></script>
+</body>
+
+</html>
