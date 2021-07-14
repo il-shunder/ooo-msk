@@ -1,21 +1,36 @@
 let headerMain = document.querySelector('.header-main');
 let headerTop = document.querySelector('.header-top');
 
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', scrollEvents);
+window.addEventListener('resize', scrollEvents);
+
+function scrollEvents() {
     if (document.body.clientWidth > 1009) {
         if (window.scrollY > headerTop.clientHeight) {
+            if(headerMain.classList.contains('_active')){
+                headerMain.classList.remove('_active');
+            }
             headerMain.classList.add('_fixed');
         } else if (window.scrollY <= headerTop.clientHeight) {
+            if(headerMain.classList.contains('_active')){
+                headerMain.classList.remove('_active');
+            }
             headerMain.classList.remove('_fixed');
         }
     } else if (document.body.clientWidth <= 1009) {
         if (window.scrollY > headerTop.clientHeight) {
+            if(headerMain.classList.contains('_fixed')){
+                headerMain.classList.remove('_fixed');
+            }
             headerMain.classList.add('_active');
         } else if (window.scrollY <= headerTop.clientHeight) {
+            if(headerMain.classList.contains('_fixed')){
+                headerMain.classList.remove('_fixed');
+            }
             headerMain.classList.remove('_active');
         }
     }
-});
+}
 
 let headerBurger = document.querySelector('.header__burger');
 let headerMainBurger = document.querySelector('.header-main__burger');
